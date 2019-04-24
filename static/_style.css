@@ -1,0 +1,50 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+header {
+    background: coral;
+}
+nav {
+    float: right;
+    width: 48%;
+    padding: 5px 10px;
+}
+
+nav h1 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.51);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(34, 65, 131);
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.title {
+    display: block;
+    float: left;
+    width: 48%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px rgba(0,0,0,0.51);
+}
